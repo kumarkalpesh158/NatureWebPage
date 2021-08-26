@@ -1,0 +1,307 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: popping;  
+}
+
+hr{
+    background-color: grey;
+}
+
+.navbar{
+    height: 55px;
+    font-size: large;
+    padding-bottom: 15px;
+    background-color: rgb(7, 53, 7);
+}
+.tog{
+    font-size: 10px;
+}
+.head{
+    font-size: 30px;
+}
+.navb{
+    color:lightgrey;    
+    text-align: center;
+}
+
+.navb:hover{
+    color:white;
+}
+
+.carol{
+    color:white;
+    
+}
+
+.control{
+    height: 500px;
+    width:auto;
+    object-fit: cover   ;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.round{
+    border-radius: 50%;
+    height:150px;
+    width:150px;
+}
+
+.learn{
+    border:solid darkgreen 2px;
+    background-color:greenyellow;
+    width:120px;
+    margin: auto;
+}
+
+.learn:hover{
+    background-color: darkolivegreen;
+    color:white;
+}
+
+
+
+.row1{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+.project{
+    height: 450px;
+    width: 337.5px
+}
+
+.column{
+    background-color: lightgray;
+    flex:auto;
+
+}
+
+.column:hover{
+    background-color: greenyellow;
+    color:white;
+}
+
+@media (max-width: 1000px) {
+    .row1 {
+      flex-direction: column;
+    }
+}
+
+
+
+.case{
+    border:solid darkgreen 2px;
+    background-color:greenyellow;
+    width: 150px;
+    margin: auto;
+}
+
+.case:hover{
+    border:solid purple 2px;
+    background-color: darkolivegreen;
+    color:white;
+}
+
+
+#mid{
+    border-left: solid grey 2px;
+    border-right: solid grey 2px;
+}
+
+.price{
+    color:lightslategrey;
+}
+
+.profilepic {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #111;
+    margin:auto;
+  }
+  
+.profilepic:hover .profilepic__content {
+    opacity: 1;
+  }
+  
+.profilepic:hover .profilepic__image {
+    opacity: .3;
+  }
+  
+.profilepic__image {
+    object-fit: cover;
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+  }
+  
+.profilepic__content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+  }
+  
+.profilepic__icon {
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+.profession{
+    color:gray
+}
+
+.life{
+    background-color:lightgray;
+}
+
+.clr{
+    color:white;
+}
+
+.signup_background{
+    background-image: url("https://images.unsplash.com/photo-1612059372972-a8284130ea68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#input_signup{
+    width:350px;
+    height:40px;
+    border: white;
+    padding:5px;
+}
+
+#signup{
+    background-color: lightgreen;
+    padding:13px 18px;
+    border: transparent;
+}
+
+#sign{
+margin-left: 355px;
+margin-top: 17px;
+padding:13px 18px;
+background-color: darkgreen;
+color:white;
+border: transparent;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    column-gap: 40px;
+}
+
+.column1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.blog{
+    width: 200px;
+    height: 150px;
+}
+
+@media (max-width: 1000px) {
+    .row2 {
+      flex-direction: column;
+    }
+    .column1{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    *{
+        font-size: 0.9em;
+    }
+}
+
+
+.map_form{
+    display:flex;
+    justify-content: center;
+}
+
+
+#form{
+    background-color:lightgreen;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 350px;
+    
+}
+
+.length{
+    width:300px;
+    height: 30px;
+    border: transparent;
+    padding-left: 10px;
+}
+
+#sub{
+    border: transparent;
+    background-color: rgb(209, 243, 84);
+}
+
+#area{
+    height:100px;
+    width:300px;
+    border:transparent;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+@media (max-width: 1000px) {
+    .map_form {
+      flex-direction: column;
+    }
+    .mapouter{
+        display: none;
+    }
+
+    #form{
+        text-align: center;
+        padding-right:50px;
+    }
+
+    
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 80px;
+}
+
+.cont{
+    font-size: 13px;
+}
+
+
+.video_row{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 8px;
+  }
+
